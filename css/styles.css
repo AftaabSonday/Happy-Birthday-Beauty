@@ -1,51 +1,59 @@
 body{
   background-color: pink;
+  float: left;
   margin: 0;
-  display: block;
-  margin-right: 0;
   }
 
-
+div{
+  float: left;
+}
 
 /* header */
 .decoration{
   width: 14%;
 }
 .decor{
-  width: 14%;
+  width: 13%;
 }
 
 
 .aj{
   width: 25%;
-  padding-right: 0;
+  border-radius: 5%;
 }
 
 .boom{
   width: 49%;
+  border-radius: 5%;
 }
 .copy{
   text-align: center;
-  padding-top: 4%;
+  padding-top: 10%;
+    font-weight: bold;
+}
+
+.three{
+  margin-top: 20%;
+  /* justify-content: center; */
 }
 
 
-
-@media (min-width: 300px) {
+ @media (max-width: 500px) {
 
   .decoration{
-    width: 13%;
+    width: 12%;
   }
   .decor{
-    width: 12%;
+    width: 11%;
   }
 
   .boom{
-    width: 42%;
+    width: 43%;
   }
   .copy{
     font-size: 10px;
-    padding-top: 7%;
+    padding-top: 15%;
+    font-weight: bold;
   }
 
 
